@@ -1,0 +1,64 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    overflow: show;
+
+}
+
+body {
+    text-align: center;
+    background-color: aqua;
+}
+
+.sitenome {
+    background-color: green;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+}
+
+.imagem {
+    background-color: antiquewhite;
+    margin-bottom: 2px;
+}
+
+.botao {
+    color: red;
+    background-color: white;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    margin-top: 2px
+}
+
+nav .texto {
+    background-color: antiquewhite;
+    text-align: justify;
+    font-size: 25px;
+}
+
+nav .video {
+    background-color: greenyellow;
+}
+
+#pp {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+    background-color: white;
+    letter-spacing: 2px;
+}
+
+.botao:hover {
+    background-color: green;
+}
+
+#pp:hover {
+    color: blueviolet;
+}
